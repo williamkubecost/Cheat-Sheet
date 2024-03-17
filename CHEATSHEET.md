@@ -33,8 +33,6 @@
 - `git checkout -b <branch-name>` creates a new branch
 - `git push --set-upstream origin <branch-name>` push to specific branch
 - `git log` check logs for branch/repo
-"CHEATSHEET.md" 66L, 2095B
-
 
 
 ## Kubernetes
