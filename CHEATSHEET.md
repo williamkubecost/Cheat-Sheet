@@ -3,6 +3,7 @@
 
 ## Tmux
 
+- My defaults are not the same as below, my prefix key for example is `C-f`, split panes is `prefix + |`, and vertical panes is `prefix + -` 
 - `C-b`: CTRL + b, press these two at the same time and then release. This is done before attempting other bindings!
 - `C-b <release> %`: Splits the panes left & right
 - `C-b <release> "`: Splits the panes top & bottom
@@ -12,11 +13,14 @@
 - `C-b <release> p`: Go back to the previous window; `n`: Go to the next window
 - `tmux ls`: List sessions
 - `tmux attach -t 0`: Connects you to a session
-
+- `tmux source-file ~/.tmux.conf` this seems to work 
+- [Dracula Theme](https://dev.to/andrenbrandao/terminal-setup-with-zsh-tmux-dracula-theme-48lm)
+- More Tmux preffered settings -> [link](https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/)
 
 ## Linux
 
 #### Process Management
+
 - `pgrep`
 - `pkill`
 - `ps aux`
