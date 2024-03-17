@@ -1,4 +1,4 @@
-# Cheat Sheet
+# Cheatsheet
 
 
 ### Tmux
