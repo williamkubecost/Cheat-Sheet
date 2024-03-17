@@ -28,8 +28,8 @@
 #### Kubectl
 
 - `kubectl port-forward deployment/name port` Port forward to specific app/service
-- `kubectx` easy way to change context, needs to be installed
-- `kubens` easy way to change ns, needs to be installed
+- `kubectx` easy way to change context, needs to be [installed](https://github.com/ahmetb/kubectx)
+- `kubens` easy way to change ns, needs to be [installed](https://github.com/ahmetb/kubectx/blob/master/kubens)
 - `kubectl rollout restart deploy <deploy-name> -n <ns>`
 
 
