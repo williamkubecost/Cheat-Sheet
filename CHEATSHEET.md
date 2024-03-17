@@ -45,6 +45,14 @@ More or less, just a few things I tend to use everyday.
 
 #### Kubectl
 
+- `kubectl get pods` basic
+- `kubectl get svc` basic
+- `kubectl get nodes`basic
+- `kubectl get svc` basic
+- `kubectl get ep` basic
+- `kubectl describe <resources> basic
+- `-o wide` basic
+- `-o yaml` basic
 - `kubectl port-forward deployment/name port` Port forward to specific app/service
 - `kubectx` easy way to change context, needs to be [installed](https://github.com/ahmetb/kubectx)
 - `kubens` easy way to change ns, needs to be [installed](https://github.com/ahmetb/kubectx/blob/master/kubens)
