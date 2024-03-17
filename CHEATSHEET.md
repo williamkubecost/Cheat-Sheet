@@ -29,5 +29,5 @@
 - `istioctl analyze -n <namespace>`
 - `kubectl logs <istio-proxy-pod> -c istio-proxy -n <namespace>`
 - `istioctl x describe pod <pod-name>` you need to change NS context
-- Just a general reminder to check istio [permissive/strict]([permissive](https://istio.io/latest/docs/concepts/security/#permissive-mtls) and [not permissive](https://istio.io/latest/docs/concepts/security/#strict-mtls).
+- Just a general reminder to check istio [permissive](https://istio.io/latest/docs/concepts/security/#permissive-mtls) and [not permissive](https://istio.io/latest/docs/concepts/security/#strict-mtls).
 
