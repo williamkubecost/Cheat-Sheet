@@ -31,3 +31,18 @@
 - `istioctl x describe pod <pod-name>` you need to change NS context
 - Just a general reminder to check istio [permissive](https://istio.io/latest/docs/concepts/security/#permissive-mtls) and [not permissive](https://istio.io/latest/docs/concepts/security/#strict-mtls).
 
+### Network
+- `openssl x509 -in <cert-path> -noout -text` inspect certificate
+- `dig` dns query tool
+- `ping`, `traceroute`, `nc -vz host port`, at a minimum everyone should know these
+
+### Git
+
+- `git checkout -b <branch-name>` creates a new branch
+- `git push --set-upstream origin <branch-name>` push to specific branch
+- `git log` check logs for branch/repo
+- `git diff` or `git diff <hash>` check diff between two versions
+- `git commit -s -m "commit message" sign the commit (DCO)
+
+
+
