@@ -42,7 +42,7 @@
 - `git push --set-upstream origin <branch-name>` push to specific branch
 - `git log` check logs for branch/repo
 - `git diff` or `git diff <hash>` check diff between two versions
-- `git commit -s -m "commit message" sign the commit (DCO)
+- `git commit -s -m` "commit message" sign the commit (DCO)
 
 
 
