@@ -50,7 +50,7 @@ More or less, just a few things I tend to use everyday.
 - `kubectl get nodes`basic
 - `kubectl get svc` basic
 - `kubectl get ep` basic
-- `kubectl describe <resources> basic
+- `kubectl describe <resources>` basic
 - `-o wide` basic
 - `-o yaml` basic
 - `kubectl port-forward deployment/name port` Port forward to specific app/service
