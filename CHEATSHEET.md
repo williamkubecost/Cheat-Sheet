@@ -20,6 +20,14 @@ More or less, just a few things I tend to use everyday.
 
 ## Linux
 
+#### ZSH Plugins
+
+- https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#homebrew
+- https://github.com/zsh-users/zsh-syntax-highlighting
+- https://github.com/zsh-users/zsh-autosuggestions
+- https://github.com/romkatv/powerlevel10k
+- https://github.com/junegunn/fzf
+
 #### Process Management
 
 - `pgrep`
