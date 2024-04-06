@@ -29,6 +29,7 @@ More or less, just a few things I tend to use everyday.
 #### Network
 
 - `openssl x509 -in <cert-path> -noout -text` inspect certificate
+- `curl http://<IP>:<PORT>`
 - `dig` dns query tool
 - `ping`, `traceroute`, `nc -vz host port`, at a minimum everyone should know these
 - Nice guide from Cloudflare, troubleshooting [ERR_TOO_MANY_REDIRECTS](https://developers.cloudflare.com/ssl/troubleshooting/too-many-redirects/)
@@ -39,9 +40,7 @@ More or less, just a few things I tend to use everyday.
 - `git push --set-upstream origin <branch-name>` push to specific branch
 - `git log` check logs for branch/repo
 
-
 ## Kubernetes
-
 
 #### Kubectl
 
@@ -57,7 +56,7 @@ More or less, just a few things I tend to use everyday.
 - `kubectx` easy way to change context, needs to be [installed](https://github.com/ahmetb/kubectx)
 - `kubens` easy way to change ns, needs to be [installed](https://github.com/ahmetb/kubectx/blob/master/kubens)
 - `kubectl rollout restart deploy <deploy-name> -n <ns>`
-
+- `kind create cluster --image "kindest/node:v1.20.15"`
 
 #### Helm
 
@@ -78,7 +77,7 @@ More or less, just a few things I tend to use everyday.
 
 #### Rancher
 
-- Reset admin pw `kubectl -n cattle-system exec $(kubectl -n cattle-system get pods -l app=rancher --no-headers | head -1 | awk '{ print $1 }') -c rancher -- reset-passwor#### Rancher
+- Reset admin pw `kubectl -n cattle-system exec $(kubectl -n cattle-system get pods -l app=rancher --no-headers | head -1 | awk '{ print $1 }') -c rancher -- reset-password`
 
 #### Docker
 - `docker images`
