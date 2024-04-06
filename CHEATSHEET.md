@@ -31,7 +31,7 @@ More or less, just a few things I tend to use everyday.
 - `openssl x509 -in <cert-path> -noout -text` inspect certificate
 - `dig` dns query tool
 - `ping`, `traceroute`, `nc -vz host port`, at a minimum everyone should know these
-
+- Nice guide from Cloudflare, troubleshooting [ERR_TOO_MANY_REDIRECTS](https://developers.cloudflare.com/ssl/troubleshooting/too-many-redirects/)
 
 #### Git
 
@@ -61,9 +61,12 @@ More or less, just a few things I tend to use everyday.
 
 #### Helm
 
-- `helm package .` packages helm chart locally
+- `helm package .` --> packages helm chart locally
+- `helm package CHART_PATH` --> packages chart in specific path
+- `helm push CHART_PACKAGE oci://REPO_URL/REPO`
+- `helm install RELEASE_NAME /path/to/local/chart.tgz`
 - `helm template <release-name> --values <values-file> > rendered-values.yaml` generates YAML manifests, good for testing helm chart changes are templating correctly
-
+- This was a cool trick to pull a local helm repo: https://github.com/rancher/rancher/issues/43092#issuecomment-1845065503
 
 #### Istio
 
@@ -73,3 +76,19 @@ More or less, just a few things I tend to use everyday.
 - Just a general reminder to check istio [permissive](https://istio.io/latest/docs/concepts/security/#permissive-mtls) and [not permissive](https://istio.io/latest/docs/concepts/security/#strict-mtls).
 - `traffic.sidecar.istio.io/excludeInboundPorts` exclude from Envoy
 
+#### Rancher
+
+- Reset admin pw `kubectl -n cattle-system exec $(kubectl -n cattle-system get pods -l app=rancher --no-headers | head -1 | awk '{ print $1 }') -c rancher -- reset-passwor#### Rancher
+
+#### Docker
+- `docker images`
+- `docker ps` --> show running containers
+- `docker inspect <image-id>`
+- `docker login`
+- `docker exec -ti <container-id> bash` --> open a shell on a container
+- `docker tag SOURCE_IMAGE[:TAG] REPO_URL/REPO_NAME/REPOSITORY[:TAG]`
+- `docker push REPO_URL/REPO_NAME/REPOSITORY[:TAG]`
+
+#### ssh 
+
+- `ssh-copy-id <un>@<ip>`
